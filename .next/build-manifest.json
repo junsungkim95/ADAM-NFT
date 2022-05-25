@@ -30,15 +30,30 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/newsletter.html": [
+    "/collections.html": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/newsletter.html.js"
+      "static/chunks/pages/collections.html.js"
+    ],
+    "/create.html": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/create.html.js"
     ],
     "/partners.html": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/partners.html.js"
+    ],
+    "/single-post.html": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/single-post.html.js"
+    ],
+    "/user.html": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/user.html.js"
     ]
   },
   "ampFirstPages": []
