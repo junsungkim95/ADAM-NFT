@@ -1,6 +1,11 @@
 {
   "/_app": "pages/_app.js",
-  "/_document": "pages/_document.js",
   "/_error": "pages/_error.js",
-  "/partners.html": "pages/partners.html.js"
+  "/_document": "pages/_document.js",
+  "/": "pages/index.js",
+  "/partners.html": "pages/partners.html.js",
+  "/collections.html": "pages/collections.html.js",
+  "/single-post.html": "pages/single-post.html.js",
+  "/user.html": "pages/user.html.js",
+  "/create.html": "pages/create.html.js"
 }
