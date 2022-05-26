@@ -9,6 +9,18 @@ function footer() {
           <div className="grid grid-cols-6 pt-24 pb-12 gap-x-7 gap-y-14 md:grid-cols-12">
             <div className="col-span-3 md:col-span-4">
               {/* Logo */}
+              <a href="/" className="shrink-0">
+                <img
+                  src="img/logo.png"
+                  className="max-h-14 dark:hidden"
+                  alt="Xhibiter | NFT Marketplace"
+                />
+                <img
+                  src="img/logo_white.png"
+                  className="hidden max-h-7 dark:block"
+                  alt="Xhibiter | NFT Marketplace"
+                />
+              </a>
               <p className="mb-12 dark:text-jacarta-300">
                 Create, sell and collect truly rare digital artworks. Powered by
                 blockchain technology.
