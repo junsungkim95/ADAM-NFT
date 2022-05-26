@@ -1,7 +1,10 @@
 import React from 'react'
-import Image from 'next/image'
-import link from 'next/link'
-// import './css/style.css'
+// import dynamic from 'next/dynamic'
+
+// const AppBundle  = dynamic(() => import( '../public/js/app.bundle'))
+// const CountdownBundle = dynamic(() => import( '../public/js/countdown.bundle'))
+// import  '../public/js/app.bundle'
+// import '../public/js/countdown.bundle'
 
 function Home2() {
   return (
@@ -24,7 +27,7 @@ function Home2() {
             {/* Hero */}
             <section className="relative py-20 hero md:pt-32">
               <picture className="absolute inset-x-0 top-0 pointer-events-none -z-10 dark:hidden">
-                <img src="img/gradient.jpg" alt="gradient" />
+                <img src="img/gradient.jpg" alt="gradient" className='w-full' />
               </picture>
               <picture className="absolute inset-x-0 top-0 hidden pointer-events-none -z-10 dark:block">
                 <img src="img/gradient_dark.jpg" alt="gradient dark" />
@@ -1665,9 +1668,10 @@ function Home2() {
             </div>
           </footer>
           {/* JS Scripts */}
+          {/* <AppBundle />
+          <CountdownBundle /> */}
         </div>
   )
 }
 
 export default Home2
-
