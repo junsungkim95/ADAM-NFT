@@ -12,7 +12,7 @@ function footer() {
               <a href="index.html" className="inline-block mb-6">
                 <img
                   src="img/logo.png"
-                  className="max-h-7 dark:hidden"
+                  className="max-h-14 dark:hidden"
                   alt="ADAM | NFT Marketplace"
                 />
                 <img
