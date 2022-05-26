@@ -30,15 +30,15 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/collection.html": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/collection.html.js"
-    ],
     "/collections.html": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/collections.html.js"
+    ],
+    "/create.html": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/create.html.js"
     ]
   },
   "ampFirstPages": []
