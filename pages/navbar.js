@@ -3,7 +3,7 @@ import React from "react";
 function navbar() {
   return (
     <div>
-      <title>Xhibiter | NFT Marketplace HTML Template</title>
+      <title>ADAM | NFT Marketplace</title>
       <meta charSet="utf-8" />
       {/*[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><![endif]*/}
       <meta
