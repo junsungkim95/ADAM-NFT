@@ -34,7 +34,7 @@ function navbar() {
           <a href="/" className="shrink-0">
             <img
               src="img/logo.png"
-              className="max-h-7 dark:hidden"
+              className="max-h-14 dark:hidden"
               alt="Xhibiter | NFT Marketplace"
             />
             <img
