@@ -1,4 +1,5 @@
 import React from 'react'
+import Script from 'next/script'
 // import './css/style.css'
 
 function Collections() {
@@ -491,6 +492,7 @@ function Collections() {
           </div>
           {/* Footer */}
           {/* JS Scripts */}
+          <Script src='/js/app.bundle.js'></Script>
         </div>
   )
 }

@@ -1,4 +1,5 @@
-import React from "react";
+import React from "react"
+import Script from "next/script";
 
 function user() {
   return (
@@ -6239,6 +6240,7 @@ function user() {
       </div>
       {/* Footer */} 
       {/* JS Scripts */}
+      <Script src="/js/app.bundle.js"></Script>
     </div>
   );
 }
