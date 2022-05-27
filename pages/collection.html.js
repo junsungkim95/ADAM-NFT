@@ -1,4 +1,6 @@
 import React from "react";
+import Script from "next/script";
+import { Chart } from "chart.js";
 // import './css/style.css'
 
 function Collection() {
@@ -3029,6 +3031,9 @@ function Collection() {
       </div>
       {/* Footer */}
       {/* JS Scripts */}
+      <Script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.0/chart.min.js" />
+      <Script src="/js/app.bundle.js" />
+      <Script src="/js/charts.bundle.js" />
     </div>
   );
 }

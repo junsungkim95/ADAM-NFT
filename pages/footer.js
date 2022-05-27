@@ -245,7 +245,7 @@ function footer() {
             <span className="text-sm dark:text-jacarta-400">
               © ADAM — Made by
               <a
-                href="https://Hiblocks.com"
+                href="https://Hiblocks.io"
                 className="hover:text-accent dark:hover:text-white"
               >
                 {" "}
