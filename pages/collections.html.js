@@ -116,7 +116,7 @@ function Collections() {
                   </div>
                 </div>
                 {/* Grid */}
-                <div className="grid grid-cols-1 gap-[1.875rem] md:grid-cols-3 lg:grid-cols-4">
+                <div className="grid grid-cols-2 gap-[1.875rem] md:grid-cols-3 lg:grid-cols-4">
                   <article>
                     <div className="dark:bg-jacarta-700 dark:border-jacarta-700 border-jacarta-100 rounded-2.5xl border bg-white p-[1.1875rem] transition-shadow hover:shadow-lg">
                       <a href="collection.html" className="flex space-x-[0.625rem]">

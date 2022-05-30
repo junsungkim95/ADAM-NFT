@@ -3031,7 +3031,7 @@ function Collection() {
       </div>
       {/* Footer */}
       {/* JS Scripts */}
-      <Script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.0/chart.min.js" strategy="afterInteractive" />
+      <Script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.0/chart.min.js" strategy="beforeInteractive" />
       <Script src="/js/app.bundle.js" />
       <Script src="/js/charts.bundle.js" />
     </div>
