@@ -53,7 +53,7 @@ function Home2() {
                   Create
                 </a>
                 <a
-                  href="collections.html"
+                  href="all-nfts.html"
                   className="px-8 py-3 font-semibold text-center transition-all bg-white rounded-full w-36 text-accent shadow-white-volume hover:bg-accent-dark hover:text-white hover:shadow-accent-volume"
                 >
                   Explore
@@ -2221,7 +2221,7 @@ function Home2() {
             </div>
             <div className="mt-10 text-center">
               <a
-                href="collections.html"
+                href="all-nfts.html"
                 className="inline-block px-8 py-3 font-semibold text-center text-white transition-all rounded-full bg-accent shadow-accent-volume hover:bg-accent-dark"
               >
                 Load More
