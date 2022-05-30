@@ -13,12 +13,12 @@ function footer() {
                 <img
                   src="img/logo.png"
                   className="max-h-14 dark:hidden"
-                  alt="Xhibiter | NFT Marketplace"
+                  alt="ADAM | NFT Marketplace"
                 />
                 <img
                   src="img/logo_white.png"
                   className="hidden max-h-7 dark:block"
-                  alt="Xhibiter | NFT Marketplace"
+                  alt="ADAM | NFT Marketplace"
                 />
               </a>
               <p className="mb-12 dark:text-jacarta-300">

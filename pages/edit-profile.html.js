@@ -4,7 +4,7 @@ import Script from 'next/script'
 function editProfile() {
   return (
     <div>
-          <title>Xhibiter | NFT Marketplace HTML Template</title>
+          <title>ADAM | NFT Marketplace HTML Template</title>
           <meta charSet="utf-8" />
           {/*[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><![endif]*/}
           <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
@@ -241,7 +241,7 @@ function editProfile() {
                   {/* Terms */}
                   <div className="flex items-center mt-4 space-x-2">
                     <input type="checkbox" id="buyNowTerms" className="self-start w-5 h-5 rounded checked:bg-accent dark:bg-jacarta-600 text-accent border-jacarta-200 focus:ring-accent/20 dark:border-jacarta-500 focus:ring-offset-0" />
-                    <label htmlFor="buyNowTerms" className="text-sm dark:text-jacarta-200">By checking this box, I agree to Xhibiter's <a href="#" className="text-accent">Terms of Service</a></label>
+                    <label htmlFor="buyNowTerms" className="text-sm dark:text-jacarta-200">By checking this box, I agree to ADAM's <a href="#" className="text-accent">Terms of Service</a></label>
                   </div>
                 </div>
                 {/* end body */}
