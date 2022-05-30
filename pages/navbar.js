@@ -128,8 +128,29 @@ function navbar() {
               <ul className="flex flex-col lg:flex-row">
                 <li className="relative js-nav-dropdown nav-item dropdown group">
                   <a
-                    href="collections.html"
-                    className="dropdown-toggle flex items-center justify-between py-3.5 font-display text-base text-jacarta-700 hover:text-accent focus:text-accent dark:text-white dark:hover:text-accent dark:focus:text-accent lg:px-5"
+                    href="all-nfts.html"
+                    className="hidden dropdown-toggle lg:flex items-center justify-between py-3.5 font-display text-base text-jacarta-700 hover:text-accent focus:text-accent dark:text-white dark:hover:text-accent dark:focus:text-accent lg:px-5"
+                    id="navDropdown-3"
+                    aria-expanded="false"
+                    role="button"
+                  >
+                    Explore
+                    <i className="lg:hidden">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        width={24}
+                        height={24}
+                        className="w-4 h-4 dark:fill-white"
+                      >
+                        <path fill="none" d="M0 0h24v24H0z" />
+                        <path d="M12 13.172l4.95-4.95 1.414 1.414L12 16 5.636 9.636 7.05 8.222z" />
+                      </svg>
+                    </i>
+                  </a>
+                  <a
+                    href="all-nfts.html"
+                    className="dropdown-toggle flex lg:hidden items-center justify-between py-3.5 font-display text-base text-jacarta-700 hover:text-accent focus:text-accent dark:text-white dark:hover:text-accent dark:focus:text-accent lg:px-5"
                     id="navDropdown-3"
                     aria-expanded="false"
                     role="button"
@@ -155,7 +176,7 @@ function navbar() {
                   >
                     <li>
                       <a
-                        href="collections.html"
+                        href="all-nfts.html"
                         className="flex items-center px-5 py-2 transition-colors rounded-xl hover:bg-jacarta-50 hover:text-accent focus:text-accent dark:hover:bg-jacarta-600"
                       >
                         <span className="mr-3 rounded-xl bg-light-base p-[0.375rem]">
@@ -177,7 +198,7 @@ function navbar() {
                     </li>
                     <li>
                       <a
-                        href="collections.html"
+                        href="all-nfts.html"
                         className="flex items-center px-5 py-2 transition-colors rounded-xl hover:bg-jacarta-50 hover:text-accent focus:text-accent dark:hover:bg-jacarta-600"
                       >
                         <span className="mr-3 rounded-xl bg-[#E4FCF4] p-[0.375rem]">
@@ -199,7 +220,7 @@ function navbar() {
                     </li>
                     <li>
                       <a
-                        href="collections.html"
+                        href="all-nfts.html"
                         className="flex items-center px-5 py-2 transition-colors rounded-xl hover:bg-jacarta-50 hover:text-accent focus:text-accent dark:hover:bg-jacarta-600"
                       >
                         <span className="mr-3 rounded-xl bg-[#FDF7EE] p-[0.375rem]">
@@ -221,7 +242,7 @@ function navbar() {
                     </li>
                     <li>
                       <a
-                        href="collections.html"
+                        href="all-nfts.html"
                         className="flex items-center px-5 py-2 transition-colors rounded-xl hover:bg-jacarta-50 hover:text-accent focus:text-accent dark:hover:bg-jacarta-600"
                       >
                         <span className="mr-3 rounded-xl bg-[#F2EEFF] p-[0.375rem]">
@@ -243,7 +264,7 @@ function navbar() {
                     </li>
                     <li>
                       <a
-                        href="collections.html"
+                        href="all-nfts.html"
                         className="flex items-center px-5 py-2 transition-colors rounded-xl hover:bg-jacarta-50 hover:text-accent focus:text-accent dark:hover:bg-jacarta-600"
                       >
                         <span className="mr-3 rounded-xl bg-[#FFEEFA] p-[0.375rem]">
@@ -265,7 +286,7 @@ function navbar() {
                     </li>
                     <li>
                       <a
-                        href="collections.html"
+                        href="all-nfts.html"
                         className="flex items-center px-5 py-2 transition-colors rounded-xl hover:bg-jacarta-50 hover:text-accent focus:text-accent dark:hover:bg-jacarta-600"
                       >
                         <span className="mr-3 rounded-xl bg-[#EAF2FE] p-[0.375rem]">
@@ -287,7 +308,7 @@ function navbar() {
                     </li>
                     <li>
                       <a
-                        href="collections.html"
+                        href="all-nfts.html"
                         className="flex items-center px-5 py-2 transition-colors rounded-xl hover:bg-jacarta-50 hover:text-accent focus:text-accent dark:hover:bg-jacarta-600"
                       >
                         <span className="mr-3 rounded-xl bg-[#EBEDFF] p-[0.375rem]">
@@ -309,7 +330,7 @@ function navbar() {
                     </li>
                     <li>
                       <a
-                        href="collections.html"
+                        href="all-nfts.html"
                         className="flex items-center px-5 py-2 transition-colors rounded-xl hover:bg-jacarta-50 hover:text-accent focus:text-accent dark:hover:bg-jacarta-600"
                       >
                         <span className="mr-3 rounded-xl bg-[#F5FFED] p-[0.375rem]">
@@ -331,7 +352,7 @@ function navbar() {
                     </li>
                     <li>
                       <a
-                        href="collections.html"
+                        href="all-nfts.html"
                         className="flex items-center px-5 py-2 transition-colors rounded-xl hover:bg-jacarta-50 hover:text-accent focus:text-accent dark:hover:bg-jacarta-600"
                       >
                         <span className="mr-3 rounded-xl bg-[#FFEEEE] p-[0.375rem]">
@@ -353,7 +374,7 @@ function navbar() {
                     </li>
                     <li>
                       <a
-                        href="collections.html"
+                        href="all-nfts.html"
                         className="flex items-center px-5 py-2 transition-colors rounded-xl hover:bg-jacarta-50 hover:text-accent focus:text-accent dark:hover:bg-jacarta-600"
                       >
                         <span className="mr-3 rounded-xl bg-[#EEFCFF] p-[0.375rem]">
